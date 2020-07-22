@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import NavigationPanel from '../components/NavigationPanel/NavigationPanel';
-import {logOut} from '../actions';
+import {logOut} from '../actions/thunkActions';
 
 const mapStateToProps = state => ({
   authentication: state.getIn(['delight', 'authentication'])

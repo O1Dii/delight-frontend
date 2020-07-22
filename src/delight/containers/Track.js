@@ -1,6 +1,6 @@
 import {connect} from 'react-redux'
-import {setPlaying, setCurrentPlayingTime, setCurrentTrack, setCurrentPlaylist,
-  likeTrack} from '../actions'
+import {setPlaying, setCurrentPlayingTime, setCurrentTrack, setCurrentPlaylist} from '../actions';
+import {likeTrack} from '../actions/thunkActions';
 import Track from "../components/Track/Track";
 
 const mapStateToProps = state => ({

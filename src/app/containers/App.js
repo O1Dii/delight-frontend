@@ -1,5 +1,5 @@
 import {connect} from 'react-redux'
-import {loadAuthenticationData, autoIncreasingUpdateCounter} from '../../delight/actions'
+import {loadAuthenticationData, autoIncreasingUpdateCounter} from '../../delight/actions/thunkActions'
 import App from "../components/App/App";
 
 const mapStateToProps = () => ({})

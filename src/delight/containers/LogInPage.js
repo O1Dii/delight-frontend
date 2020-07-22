@@ -1,5 +1,6 @@
 import {connect} from 'react-redux'
-import {authenticate, requestToken} from '../actions'
+import {requestToken} from '../actions';
+import {authenticate} from '../actions/thunkActions';
 import LogInPage from "../components/LogInPage/LogInPage";
 
 const mapStateToProps = (state) => ({

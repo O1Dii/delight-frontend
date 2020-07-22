@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import {submitTrack, getArtists, getGenres} from '../actions';
+import {submitTrack, getArtists, getGenres} from '../actions/thunkActions';
 import UploadTrackPage from '../components/UploadTrackPage/UploadTrackPage';
 
 const mapStateToProps = state => ({

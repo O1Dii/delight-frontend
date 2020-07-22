@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import {uploadImage} from '../actions';
+import {uploadImage} from '../actions/thunkActions';
 import ImageUploadInput from '../components/ImageUploadInput/ImageUploadInput';
 
 const mapStateToProps = state => ({
