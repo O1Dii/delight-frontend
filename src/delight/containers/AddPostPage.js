@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import {addPost, getPlaylists, getPlaylist} from '../actions';
+import {addPost, getPlaylists, getPlaylist} from '../actions/thunkActions';
 import AddPostPage from '../components/AddPostPage/AddPostPage';
 
 const mapStateToProps = state => ({

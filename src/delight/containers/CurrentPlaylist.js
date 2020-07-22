@@ -1,6 +1,7 @@
 import {connect} from 'react-redux';
 import CurrentPlaylist from '../components/CurrentPlaylist/CurrentPlaylist';
-import {setPlaylistVisibility, getPlaylist, updatePlaylistInfo, removeTrackFromPlaylist, dislikeTrack} from '../actions';
+import {setPlaylistVisibility} from '../actions';
+import {getPlaylist, updatePlaylistInfo, removeTrackFromPlaylist, dislikeTrack} from '../actions/thunkActions';
 
 const mapStateToProps = state => {
   const showingPlaylist = state.getIn(['delight', 'currentShowingTracksList']);

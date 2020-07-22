@@ -1,5 +1,6 @@
 import {connect} from 'react-redux';
-import {getPosts, getPlaylists, incrUpdateCounter} from '../actions';
+import {incrUpdateCounter} from '../actions';
+import {getPosts, getPlaylists} from '../actions/thunkActions';
 import HomePage from '../components/HomePage/HomePage';
 
 const mapStateToProps = state => ({

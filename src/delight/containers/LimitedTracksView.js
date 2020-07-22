@@ -1,5 +1,5 @@
 import {connect} from 'react-redux'
-import {setCurrentTrack, setCurrentShowingPlaylist, setPlaylistVisibility} from '../actions'
+import {setCurrentShowingPlaylist, setPlaylistVisibility} from '../actions'
 import LimitedTracksView from "../components/LimitedTracksView/LimitedTracksView";
 
 const mapStateToProps = () => ({})

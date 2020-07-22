@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import {uploadSong} from '../actions';
+import {uploadSong} from '../actions/thunkActions';
 import SongUploadInput from '../components/SongUploadInput/SongUploadInput';
 
 const mapStateToProps = state => ({
